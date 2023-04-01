@@ -1,3 +1,4 @@
+using Api.Data;
 using Api.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -5,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddScoped<IWineRepository, WineRepository>();
 builder.Services.AddControllers();
 builder.Services.AddDbContext<AppDbContext>(opt =>
 opt.UseSqlServer("Server=172.54.1.9;Initial Catalog=dotnetdo;Database=dotnetdo;User Id=sa;Password=DBpassword!!12345;TrustServerCertificate=true"));
