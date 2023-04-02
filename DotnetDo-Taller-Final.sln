@@ -3,19 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{AD849A50-9F2A-486F-BC2E-69B5CEEBF192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{AD849A50-9F2A-486F-BC2E-69B5CEEBF192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiClient", "MauiClient\MauiClient.csproj", "{58B3D38E-369D-431A-AADB-E763C5A59B44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiClient", "MauiClient\MauiClient.csproj", "{58B3D38E-369D-431A-AADB-E763C5A59B44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorClient", "BlazorClient\BlazorClient.csproj", "{8479192A-EC73-450A-830C-46FCDFA11A38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorClient", "BlazorClient\BlazorClient.csproj", "{8479192A-EC73-450A-830C-46FCDFA11A38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AD849A50-9F2A-486F-BC2E-69B5CEEBF192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,11 +21,15 @@ Global
 		{AD849A50-9F2A-486F-BC2E-69B5CEEBF192}.Release|Any CPU.Build.0 = Release|Any CPU
 		{58B3D38E-369D-431A-AADB-E763C5A59B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58B3D38E-369D-431A-AADB-E763C5A59B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B3D38E-369D-431A-AADB-E763C5A59B44}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{58B3D38E-369D-431A-AADB-E763C5A59B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58B3D38E-369D-431A-AADB-E763C5A59B44}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8479192A-EC73-450A-830C-46FCDFA11A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8479192A-EC73-450A-830C-46FCDFA11A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8479192A-EC73-450A-830C-46FCDFA11A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8479192A-EC73-450A-830C-46FCDFA11A38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
